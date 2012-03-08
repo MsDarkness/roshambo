@@ -1,0 +1,20 @@
+<h1 align="center"> Rock, Paper, Scissors</h1>
+<h2 align="center">Game Statistics</h2>
+
+<table align="center">
+	<tr>
+		<td><h2>No. of Player wins: </h2></td>
+		<td><h3> <%= session[:player_score] %></h3></td>
+	</tr>
+	<tr>
+		<td><h2>No. of Computer Wins: </h2></td>
+		<td><h3> <%= session[:computer_score] %></h3></td>
+	</tr>
+</table>
+
+<br>
+<h2 align="center"><%= @winner %></h2>
+<br><br>
+<hr>
+<h2 align="center"><a href="index">Keep Playing</a><br>
+<a href="end">Done Playing</a></h2>
